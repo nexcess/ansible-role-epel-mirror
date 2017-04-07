@@ -1,0 +1,6 @@
+---
+
+epel_mirror_source: "mirrors.kernel.org::t2fedora-epel/"
+epel_mirror_cron_disabled: true
+epel_rsync_user: "{{ vault_epel_rsync_user }}"
+epel_rsync_pass: "{{ vault_epel_rsync_pass }}"
